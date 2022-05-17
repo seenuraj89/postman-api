@@ -1,4 +1,4 @@
-CODE_CHANGES = getGitChanges
+CODE_CHANGES = checkout()
 pipeline {
   agent any
   stages {
