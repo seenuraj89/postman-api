@@ -4,7 +4,7 @@ pipeline {
     stage("build") {
       when {
         expression {
-          BRANCH_NAME == 'master' && GIT_COMMIT == true
+          BRANCH_NAME == 'master'
         }
       }
       steps {
