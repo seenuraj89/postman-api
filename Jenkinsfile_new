@@ -3,7 +3,7 @@ pipeline {
   stages {
   stage(build) {
       steps {
-        bat '''C:/Users/ss112148/AppData/Roaming/npm/newman run "https://www.getpostman.com/collections/283270367034f868cf40" -r -x htmlextra'''        
+        bat '''C:/Users/ss112148/AppData/Roaming/npm/newman run "https://www.getpostman.com/collections/283270367034f868cf40"'''        
       }
     }
 }
